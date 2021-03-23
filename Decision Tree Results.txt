@@ -1,0 +1,27 @@
+
+--- Tuning hyperparameters for precision ---
+{'criterion': 'gini', 'max_depth': 5}
+
+Performance metrics:
+              precision    recall  f1-score   support
+
+          -1       0.80      0.86      0.83       699
+           1       0.67      0.57      0.62       346
+
+    accuracy                           0.76      1045
+   macro avg       0.74      0.72      0.72      1045
+weighted avg       0.76      0.76      0.76      1045
+
+
+--- Tuning hyperparameters for recall ---
+{'criterion': 'entropy', 'max_depth': 5}
+
+Performance metrics:
+              precision    recall  f1-score   support
+
+          -1       0.82      0.82      0.82       699
+           1       0.63      0.64      0.63       346
+
+    accuracy                           0.76      1045
+   macro avg       0.72      0.73      0.73      1045
+weighted avg       0.76      0.76      0.76      1045
